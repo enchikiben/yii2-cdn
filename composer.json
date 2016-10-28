@@ -1,0 +1,25 @@
+{
+  "name": "enchikiben/yii2-cdn",
+  "description": "Yii2 cdn assets",
+  "keywords": ["yii2", "cdn"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/enchikiben/yii2-cdn",
+    "issues": "https://github.com/enchikiben/yii2-cdn/issues"
+  },
+  "authors": [
+    {
+      "name": "enchikiben",
+      "homepage" : "https://github.com/enchikiben"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "enchikiben\\cdn\\": ""
+    }
+  }
+}
